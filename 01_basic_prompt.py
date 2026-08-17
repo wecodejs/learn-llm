@@ -9,7 +9,7 @@ from langchain_openai import ChatOpenAI
 
 # 本地 Ollama 服务配置
 BASE_URL = "http://192.168.3.140:11434/v1"
-MODEL_NAME = "qwen3.5"
+MODEL_NAME = "qwen2.5"
 API_KEY = "ollama"  # Ollama 本地服务不校验密钥，占位即可
 
 

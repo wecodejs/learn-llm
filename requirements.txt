@@ -1,3 +1,5 @@
 langchain-core
 langchain-openai
 python-dotenv
+langchain_ollama
+pydantic
