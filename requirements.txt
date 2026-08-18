@@ -3,3 +3,6 @@ langchain-openai
 python-dotenv
 langchain_ollama
 pydantic
+chromadb
+langchain-chroma
+langchain_text_splitters

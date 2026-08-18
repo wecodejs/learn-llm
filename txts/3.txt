@@ -1,0 +1,6 @@
+ThinkPad S2 2nd（经典轻薄本）
+处理器：Intel Core i5-7200U（双核，主频 2.50GHz）
+显卡：Intel HD Graphics 620
+内存：12GB
+存储：256GB 固态硬盘
+屏幕：13.3英寸

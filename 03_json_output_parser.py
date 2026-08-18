@@ -1,7 +1,7 @@
 """JSON 输出示例：使用 JsonOutputParser 让 langchain 返回结构化 JSON。
 
 Ollama 服务地址：http://192.168.3.140:11434
-模型：qwen2.5:latest
+模型：qwen2.5:0.5b-instruct:latest
 """
 
 from langchain_core.output_parsers import JsonOutputParser
@@ -11,7 +11,7 @@ from pydantic import BaseModel, Field
 
 # 本地 Ollama 服务配置
 BASE_URL = "http://192.168.3.140:11434/v1"
-MODEL_NAME = "qwen2.5"
+MODEL_NAME = "qwen2.5:0.5b-instruct"
 API_KEY = "ollama"  # Ollama 本地服务不校验密钥，占位即可
 
 

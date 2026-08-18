@@ -14,7 +14,7 @@ class CodeAnalysis(BaseModel):
 
 # 3. 初始化本地 Ollama 模型（已修改为局域网连接）
 llm = ChatOllama(
-    model="qwen2.5:7b",
+    model="qwen2.5:0.5b-instruct",
     base_url="http://192.168.3.140:11434",  # 指向局域网内的 Ollama 服务
     temperature=0.3,  # 降低温度，让 JSON 输出更稳定
     format="json"  # 强制 Ollama 输出 JSON 格式
